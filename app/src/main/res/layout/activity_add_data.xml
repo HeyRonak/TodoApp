@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".AddData">
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:layout_height="75dp" />
+
+
+    <EditText
+        android:id="@+id/additem"
+        android:hint="Enter task"
+        android:background="@drawable/editbg"
+        android:padding="15dp"
+        android:layout_margin="12dp"
+        android:typeface="monospace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_margin="15dp"
+        android:padding="10dp"
+        android:text="Add"
+        android:textAllCaps="false"
+        android:background="#5CAAE7"
+        android:typeface="monospace"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_margin="15dp"
+        android:onClick="back"
+        android:padding="10dp"
+        android:text="See Todo"
+        android:textAllCaps="false"
+        android:background="#5CAAE7"
+        android:typeface="monospace"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
